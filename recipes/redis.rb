@@ -7,5 +7,6 @@
 # All rights reserved - Do Not Redistribute
 #
 
-include_recipe 'ws-phonebook-backend::redis'
-include_recipe 'ws-phonebook-backend::config'
+package 'redis-server' do
+  action :install
+end

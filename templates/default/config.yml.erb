@@ -1,0 +1,6 @@
+---
+frontend:
+  server: <%= node['ws-phonebook-backend']['config']['frontend'] %>
+backend:
+  server: <%= node['ws-phonebook-backend']['config']['backend'] %>
+  fqdn: <%= @fqdn %>

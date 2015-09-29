@@ -15,6 +15,7 @@ suites:
   - name: default
     run_list:
       - recipe[ws-phonebook-backend::default]
+      - recipe[ws-testhelper::default]
     attributes:
 #      ws-phonebook-backend:
 #        cname: 'test'
