@@ -1,0 +1,7 @@
+name             'ws-phonebook-backend'
+maintainer       'YOUR_NAME'
+maintainer_email 'YOUR_EMAIL'
+license          'All rights reserved'
+description      'Installs/Configures ws-phonebook-backend'
+long_description 'Installs/Configures ws-phonebook-backend'
+version          '0.1.0'
